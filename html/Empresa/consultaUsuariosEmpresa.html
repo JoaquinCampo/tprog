@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Usuario - TrabajoUY</title>
+    <link rel="stylesheet" href="../../css/consultarUsuarios_styles.css">
+    <script src="https://kit.fontawesome.com/a4bec4b189.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="checkbox" id="menuToggle">
+    <header>
+        <label for="menuToggle" class="dropbtn">&#9776;</label>
+        <a href="indexEmpresa.html" class="logo-link">
+            <h1><span class="first-part">Trabajo</span><span class="last-part">UY</span></h1>
+        </a>        
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar usuarios...">
+            <button><i class="fas fa-search"></i> Buscar</button>
+        </div>
+        <div class="user-session">
+            <img src="../../media/EcoTech.png" alt="Logo Empresa" class="user-avatar">
+            <span class="user-name">EcoTech <i class="fas fa-chevron-down"></i></span>
+            <div class="user-dropdown">
+                <a href="consultaEmpresaSelf.html">Mi perfil</a>
+                <a href="CerrarSesion.html">Cerrar sesión</a>
+            </div>
+    </div>
+    </header>
+
+    <div class="side-menu">
+        <ul>
+            <li><a href="indexEmpresa.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="consultaUsuariosEmpresa.html"><i class="fas fa-users"></i> Consultar usuarios</a></li>
+            <li><a href="listaTipoOfertaEmpresa.html"><i class="fas fa-newspaper"></i> Consultar tipos de publicacion</a></li>
+            <li><a href="consultaPaquete_Empresa.html"><i class="fas fa-cube"></i> Consultar paquetes</a></li>
+            <li><a href="AltaOfertaLabroal.html"><i class="fas fa-square-poll-horizontal"></i> Alta Oferta</a></li>
+            <li><a href="listaOfertaEmpresa.html"><i class="fas fa-newspaper"></i> Consultar Oferta</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="user-search">
+            <h2><i class="fas fa-user-check"></i> Usuarios Registrados</h2>
+            <div class="user-box">
+                <img src="../../media/usr.png" alt="" class="tipo">
+                <div class="user-info">
+                    <h3><a href="ConsultaUsuariodesdeEmpresa.html"></i> Juan Perez</a></h3>
+                    <p><i class="fas fa-envelope"></i> Email: juan.perez@gmail.com</p>
+                </div>
+                <img src="../../media/juanPerez.jpg" alt="" class="user-photo">
+            </div>
+            
+            <div class="user-box">
+                <img src="../../media/empresa.png" alt="" class="tipo">
+                <div class="user-info">
+                    <h3><a href="consultaEmpresaSelf.html"></i> EcoTech</a></h3>
+                    <p><i class="fas fa-envelope"></i> Email: contact@ecotech.com</p>
+                </div>
+                <img src="../../media/EcoTech.png" alt="" class="user-photo">
+            </div>
+                      
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+header {
+    background-color: #113f67;
+    padding: 1rem 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* Usamos una fuente moderna, Lato */
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom right, #d2d2d3, #6c6e73);
+}
+
+/* Estilo para centrar verticalmente la tabla */
+.center-vertically {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Altura del 100% de la ventana */
+}
+
+/* Estilo para la tabla */
+.table {
+    width: auto;
+    /* Cambia el ancho a automático */
+    margin-left: 30%;
+    /* Agrega margen izquierdo */
+    margin-top: 30%;
+    border-collapse: collapse;
+}
+
+.table td,
+.table th {
+    border: none;
+    /* Elimina los bordes de las celdas */
+    padding: 0;
+    /* Elimina el relleno de las celdas */
+}
+
+/* Estilo para el contenedor de keywords */
+#keywords-container {
+    position: fixed;
+    top: 30%;
+    left: 3%;
+    padding: 20px;
+    background-color: #113f67;
+    color: white;
+}
+
+/* Estilo para quitar los puntos antes de cada elemento de la lista */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Estilo para el botón de cerrar sesión */
+#logout-btn {
+    position: fixed;
+    bottom: 20px;
+    /* Espacio desde abajo */
+    left: 60px;
+    /* Espacio desde la izquierda */
+}
+
+#contenedor-blanco {
+    background:linear-gradient(to bottom right, #d2d2d3, #6c6e73);
+    border-radius: 20px; /* Ajusta el radio de borde según sea necesario */
+    padding: 20px; /* Agrega relleno para separar el contenido de los bordes */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega sombra si deseas un efecto adicional */
+}
+.custom-background {
+    background: white;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* Agrega más estilos según tus preferencias */
+    padding: 20px;
+    /* Agrega relleno si lo deseas */
+}
+/* Estilo para el contenedor blanco */
+
+/* Estilo para el contenedor de los campos */
+#datos-container {
+    max-width: 60%; /* Cambia el valor según el ancho máximo deseado */
+    margin: 0 auto; /* Esto centrará horizontalmente el elemento */
+    border-radius: 10px; /* Agrega un radio de borde para los bordes curvos */
+    padding: 20px;
+}
+
+
+
+/* Estilo para el elemento contenedor */
+#fixed-container {
+    position: fixed;
+    bottom: 10px;
+    /* Espacio desde abajo */
+    left: 20px;
+    /* Espacio desde la izquierda */
+}
+
+/* Estilo para la imagen */
+#fixed-container img {
+    max-width: 30px;
+    /* Ancho máximo de la imagen */
+    margin-right: 10px;
+    /* Espacio entre la imagen y el botón */
+}
+
+/* Estilo para ocultar el checkbox */
+.offer-checkbox-hidden {
+    display: none;
+}
+
+/* Estilo para el elemento contenedor */
+#oferta-container {
+    position: fixed;
+    bottom: 40%;
+    /* Espacio desde abajo */
+    right: 3%;
+    /* Espacio desde la derecha */
+}
+
+/* Estilo para la imagen */
+#oferta-container img {
+    width: 200px;
+    /* Ancho fijo */
+    height: 200px;
+    /* Alto fijo */
+    object-fit: cover;
+}

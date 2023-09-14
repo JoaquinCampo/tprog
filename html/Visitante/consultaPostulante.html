@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <link rel="stylesheet" href="../../css/consultaPostulante.css">
+        <script src="https://kit.fontawesome.com/a4bec4b189.js"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <input type="checkbox" id="menuToggle">
+        <input type="checkbox" id="editModalToggle" class="modal-toggle">
+        <!-- Este es el nuevo input -->
+        <input type="checkbox" id="editMode" style="display:none;">
+        <header>
+            <label for="menuToggle" class="dropbtn"><i class="fas fa-bars"></i></label>
+            <a href="../../index.html" class="logo-link">
+                <h1><span class="first-part">Trabajo</span><span
+                        class="last-part">UY</span></h1>
+            </a>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar ofertas de trabajo...">
+                <button><i class="fas fa-search"></i> Buscar</button>
+            </div>
+            <div class="actions">
+                <a href="login.html" class="login-btn"><i
+                        class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+                <a href="signup.html" class="signup-btn"><i
+                        class="fas fa-user-plus"></i> Alta de usuario</a>
+            </div>
+        </header>
+        <div class="side-menu">
+            <ul>
+                <li><a href="../../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="consultaUsuarios.html"><i class="fas fa-users"></i> Consultar usuarios</a></li>
+                <li><a href="listaTipoOferta.html"><i class="fas fa-newspaper"></i> Consultar tipos de publicacion</a></li>
+                <li><a href="listadoOfertasKeyVisitante.html"><i class="fas fa-newspaper"></i> Consultar Ofertas</a></li>
+            </ul>
+        </div>
+        <main>
+            <div class="central-window" style="width: 40%;">
+                <div class="upper-zone">
+                    <img src="../../media/juanPerez.jpg" alt="Juan Perez"
+                        class="user-image">
+                    <h2 class="profile-name"><i class="fas fa-user"></i> Juan
+                        Perez</h2>
+                    <p class="profile-email"><i class="fas fa-envelope"></i>
+                        juan.perez@email.com</p>
+                </div>
+                <div class="lower-zone">
+                    <div class="left-zone">
+                        <p><i class="fas fa-user"></i> Nickname: <span
+                                id="nombre-text">jperez</span></p>
+                        <p><i class="fas fa-user-circle"></i> Nombre: <span
+                                id="nombre-text">Juan</span></p>
+                        <p><i class="fas fa-user-circle"></i> Apellido: <span
+                                id="apellido-text">Perez</span></p>
+                        <p><i class="fas fa-envelope"></i> Correo:
+                            juan.perez@email.com</p>
+                        <p><i class="fas fa-birthday-cake"></i> Fecha de
+                            nacimiento: <span id="fecha-text">01/01/1990</span></p>
+                        <p><i class="fas fa-flag"></i> Nacionalidad: <span
+                                id="nacionalidad-text">Uruguaya</span></p>
+                        <label for="editModalToggle" id="edit-btn"
+                            class="edit-label">Editar</label>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Este es el modal -->
+        <div class="modal">
+            <div class="modal-content">
+                <label for="editModalToggle" class="close-btn">X</label>
+                <h3>Editar Información</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="edit-nicname">Nickname:</label>
+                        <input type="text" id="edit-nombre" value="jperez">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-nombre">Nombre:</label>
+                        <input type="text" id="edit-nombre" value="Juan">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-apellido">Apellido:</label>
+                        <input type="text" id="edit-apellido" value="Perez">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-fecha">Fecha de nacimiento:</label>
+                        <input type="date" id="edit-fecha" value="1990-01-01">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-nacionalidad">Nacionalidad:</label>
+                        <input type="text" id="edit-nacionalidad"
+                            value="Uruguaya">
+                    </div>
+                    <button type="submit">Guardar Cambios</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

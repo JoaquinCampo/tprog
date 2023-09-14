@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="../../css/consultaEmpresa.css">
+    <script src="https://kit.fontawesome.com/a4bec4b189.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <input type="checkbox" id="menuToggle">
+    <input type="checkbox" id="editModalToggle" class="modal-toggle">
+    <input type="checkbox" id="editMode" style="display:none;">
+    <header>
+        <label for="menuToggle" class="dropbtn"><i class="fas fa-bars"></i></label>
+        <a href="indexEmpresa.html" class="logo-link">
+            <h1><span class="first-part">Trabajo</span><span class="last-part">UY</span></h1>
+        </a>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar ofertas de trabajo...">
+            <button><i class="fas fa-search"></i> Buscar</button>
+        </div>
+        <div class="user-session">
+            <img src="../../media/EcoTech.png" alt="Logo Empresa" class="user-avatar">
+            <span class="user-name">EcoTech <i class="fas fa-chevron-down"></i></span>
+            <div class="user-dropdown">
+                <a href="consultaEmpresaSelf.html">Mi perfil</a>
+                <a href="logout.html">Cerrar sesión</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="side-menu">
+        <ul>
+            <li><a href="indexEmpresa.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="consultaUsuariosEmpresa.html"><i class="fas fa-users"></i> Consultar usuarios</a></li>
+            <li><a href="listaTipoOfertaEmpresa.html"><i class="fas fa-newspaper"></i> Consultar tipos de publicacion</a></li>
+            <li><a href="consultaPaquete_Empresa.html"><i class="fas fa-cube"></i> Consultar paquetes</a></li>
+            <li><a href="AltaOfertaLabroal.html"><i class="fas fa-square-poll-horizontal"></i> Alta Oferta</a></li>
+            <li><a href="listaOfertaEmpresa.html"><i class="fas fa-newspaper"></i> Consultar Oferta</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="central-window">
+            <div class="upper-zone">
+                <img src="../../media/EcoTech.png" alt="Banner Empresa" class="company-banner">
+                <h2 class="company-name"><i class="fas fa-building"></i> Sophia Johnson</h2>
+                <p class="company-email"><i class="fas fa-envelope"></i> info@EcoTech.com</p>
+            </div>
+            <div class="lower-zone">
+                <div class="left-zone">
+                    <h3>Perfil</h3>
+                    <p><i class="fas fa-user"></i> Nickname: EcoTech</p>
+                    <p><i class="fas fa-user"></i> Nombre: Sophia</p>
+                    <p><i class="fas fa-user"></i> Apellido: Johnson</p>
+                    <p><i class="fas fa-envelope"></i> Correo: email.empresa@email.com</p>
+                    <p><i class="fas fa-info-circle"></i> Link web: www.EcoTechInnova</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Descripcion: EcoTech Innovations es una empresa lıder en soluciones tecnolgicas sostenibles. Nuestro enfoque se centra en desarrollar y comercializar productos y servicios que aborden los
+                        desafıos ambientales mas apremiantes de nuestro tiempo.
+                        Desde sistemas de energıa renovable y dispositivos de monitorizacion ambiental hasta soluciones de gestion de residuos inteligentes, nuestra mision es proporcionar herramientas que permitan a las empresas y comunidades adoptar practicas mas ecologicas sin comprometer la eficiencia.
+                        Creemos en la convergencia armoniosa entre la tecnologıa y
+                        la naturaleza, y trabajamos incansablemente para impulsar
+                        un futuro mas limpio y sostenible. </p>
+                    <label for="editModalToggle" class="edit-label">Editar</label>
+                </div>
+                <div class="middle-zone">
+                    <h3>Paquetes</h3>
+                    <div class="package-card">
+                        <h4>Paquete Premium</h4>
+                        <p>Publica ofertas laborales premium que incluye promoción en nuestras redes sociales y listado en la sección destacada por 60 días.</p>
+                        <p>Periodo: 60 días</p>
+                        <p>Descuento: 15%</p>
+                        <p>Fecha de Adquisición: 14/08/23</p>
+                        <button class="interested-btn">Ver más</button>
+                    </div>
+                </div>
+                <div class="right-zone">
+                    <h3>Ofertas Laborales</h3>
+                    <div class="job-card">
+                        <div class="job-content">
+                            <h3>Desarrollador Frontend</h3>
+                            <p>Únete a nuestro equipo de desarrollo frontend y crea experiencias de usuario excepcionales.</p>
+                            <p>Empresa: <a href="consultaEmpresaSelf.html" class="enterprise-link">EcoTech</a></p>
+                            <p>Montevideo, UY</p>
+                            <button class="interested-btn">Ver más</button>
+                        </div>
+                        <img src="../../media/Frontend_developer.jpg" alt="Imagen de la oferta" class="job-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Este es el modal -->
+    <div class="modal">
+        <div class="modal-content">
+            <label for="editModalToggle" class="close-btn">X</label>
+            <h3>Editar Información</h3>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="edit-nombre">Nombre:</label>
+                    <input type="text" id="edit-nombre" value="Sofia">
+                </div>
+                <div class="form-group">
+                    <label for="edit-apellido">Apellido:</label>
+                    <input type="text" id="edit-apellido" value="Johnson">
+                </div>
+                <div class="form-group">
+                    <label for="edit-descripcion">Descripcion:</label>
+                    <input type="" id="edit-fecha" value="EcoTech Innovations es una empresa lıder en soluciones tecnolgicas sostenibles. Nuestro enfoque se centra en desarrollar y comercializar productos y servicios que aborden los
+                    desafıos ambientales mas apremiantes de nuestro tiempo.
+                    Desde sistemas de energıa renovable y dispositivos de monitorizacion ambiental hasta soluciones de gestion de residuos inteligentes, nuestra mision es proporcionar herramientas que permitan a las empresas y comunidades adoptar practicas mas ecologicas sin comprometer la eficiencia.
+                    Creemos en la convergencia armoniosa entre la tecnologıa y
+                    la naturaleza, y trabajamos incansablemente para impulsar
+                    un futuro mas limpio y sostenible.">
+                </div>
+                <div class="form-group">
+                    <label for="edit-web">Link web:</label>
+                    <input type="text" id="edit-nacionalidad" value="www.EcoTechInnova">
+                </div>
+                <button type="submit">Guardar Cambios</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

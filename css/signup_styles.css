@@ -1,0 +1,192 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #209dc3, #000000);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.signup-section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.signup-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2a59a1;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.form-buttons button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #099cc8;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-buttons button:hover {
+    background-color: #0781a6;
+}
+
+.userTypeFields {
+    margin-top: 1rem;
+}
+
+.logo-link {
+    color: #007092;
+    text-decoration: none;
+}
+
+/* Common styles and adjustments */
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 2rem;
+    width: 400px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo a {
+    color: #0d4495; /* El mismo color que el h1 del logo */
+    text-decoration: none; /* Para remover el subrayado del enlace */
+}
+.logo a:hover {
+    color: #099cc8; /* Un color un poco más claro para el hover */
+}
+.logo p {
+    color: #099cc8;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-buttons button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #099cc8;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-buttons button:hover {
+    background-color: #0781a6;
+}
+
+.form-buttons button.postulant-btn {
+    padding: 0.7rem 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.form-buttons button.company-btn {
+    padding: 0.7rem 1.5rem;
+}
+
+.form-buttons button.postulant-btn:hover {
+    background-color: #0781a6;
+}
+
+.form-buttons button.company-btn:hover {
+    background-color: #045e76;
+}
+
+.empresa-btn {
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #099cc8;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 1rem;
+}
+
+.empresa-btn:hover {
+    background-color: #0781a6;
+}
+
+.postulant-btn {
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #099cc8;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background-color 0.3s;
+}
+
+.postulante-btn:hover {
+    background-color: #0781a6;
+}
+
+.company-btn {
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #099cc8;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background-color 0.3s;
+}
+
+.company-btn:hover {
+    background-color: #0781a6;
+}

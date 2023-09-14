@@ -1,0 +1,124 @@
+header {
+    background-color: #113f67;
+    padding: 1rem 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+body {
+    font-family: 'Lato', sans-serif; /* Usamos una fuente moderna, Lato */
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom right, #d2d2d3, #6c6e73);
+}
+
+/* Estilo para centrar verticalmente la tabla */
+.center-vertically {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 123px;
+}
+
+/* Estilo para la tabla */
+.table {
+    width: auto; /* Cambia el ancho a automático */
+    margin-left: 30%; /* Agrega margen izquierdo */
+    border-collapse: collapse; 
+    border-radius: 10px;
+}
+.table td, .table th {
+    border: none; /* Elimina los bordes de las celdas */
+    padding: 1%;
+}
+
+
+/* Estilo para el contenedor de keywords */
+#keywords-container {
+    position: fixed;
+    top: 30%;
+    left: 30px;
+    padding: 20px;
+    background-color: #113f67;
+    color: white;
+}
+
+ 
+/* Estilo para quitar los puntos antes de cada elemento de la lista */
+ ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+/* Centrar verticalmente la ventana emergente */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100% - 60px); /* Resta el espacio de encabezado y pie de página */
+}
+
+/* Estilo para agregar un espacio entre los elementos de la lista */
+.keyword-box li {
+    margin-bottom: 10px;
+    /* Ajusta el valor según sea necesario */
+}
+
+/* Estilo para el botón de cerrar sesión */
+#logout-btn {
+    position: fixed;
+    bottom: 20px;
+    /* Espacio desde abajo */
+    left: 60px;
+    /* Espacio desde la izquierda */
+}
+
+/* Estilo para el elemento contenedor */
+#fixed-container {
+    position: fixed;
+    bottom: 10px;
+    /* Espacio desde abajo */
+    left: 20px;
+    /* Espacio desde la izquierda */
+}
+
+/* Estilo para la imagen */
+#fixed-container img {
+    max-width: 30px;
+    /* Ancho máximo de la imagen */
+    margin-right: 10px;
+    /* Espacio entre la imagen y el botón */
+}
+/* Estilo para la imagen cuadrada */
+.square-image {
+    width: 200px; /* Ancho fijo */
+    height: 100px; /* Alto fijo */
+    object-fit: cover; /* Escala la imagen para que se ajuste al cuadro sin distorsión */
+}
+ /* Estilo para ocultar el checkbox */
+ .offer-checkbox-hidden {
+    display: none;
+}      
+/* Estilo para la ventana emergente */
+        .offer-details {
+            display: none;
+        }
+
+        .offer-checkbox:checked + .offer-details {
+            display: block;
+        }
+
+        /* Estilo para el botón "Me interesa" */
+        .btn-me-interesa {
+            display: none;
+        }
+
+        .offer-checkbox:checked + .offer-details + .btn-me-interesa {
+            display: block;
+        }
+
+       

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="../../css/consultaOferta.css">
+    <script src="https://kit.fontawesome.com/a4bec4b189.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="checkbox" id="menuToggle">
+    <header>
+        <label for="menuToggle" class="dropbtn"><i class="fas fa-bars"></i></label>
+        <a href="../../index.html" class="logo-link">
+            <h1><span class="first-part">Trabajo</span><span class="last-part">UY</span></h1>
+        </a>  
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar ofertas de trabajo...">
+            <button><i class="fas fa-search"></i> Buscar</button>
+        </div>
+        <div class="actions">
+            <a href="login.html" class="login-btn"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+            <a href="signup.html" class="signup-btn"><i class="fas fa-user-plus"></i> Alta de usuario</a>
+        </div>        
+    </header>
+    <h1 id="Titulo">Ofertas Tiempo Completo</h1>
+    <div class="side-menu">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="consultaUsuarios.html"><i class="fas fa-users"></i> Consultar usuarios</a></li>
+            <li><a href="listaTipoOferta.html"><i class="fas fa-newspaper"></i> Consultar tipos de publicacion</a></li>
+            <li><a href="listadoOfertasKeyVisitante.html"><i class="fas fa-newspaper"></i> Consultar Ofertas</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="job-offers">
+            <div class="job-card">
+                <div class="job-content">
+                    <h3>Desarrollador Frontend</h3>
+                    <p>Únete a nuestro equipo de desarrollo frontend y crea experiencias de usuario excepcionales.</p>
+                    <p>Empresa: EcoTech</p>
+                    <p>Montevideo, UY</p>
+                    <a href="desarrolladorFrontend.html">
+                    <button class="interested-btn">Ver mas detalles</button>
+                    </a>
+                </div>
+                <img src="../../media/Frontend_developer.jpg" alt="Company Logo" class="job-image">
+            </div>           
+        </section>
+        <section class="job-offers">
+            <div class="job-card">
+                <div class="job-content">
+                    <h3>Doon Slayer</h3>
+                    <p>Contra todo el mal que el infierno pueda conjurar...
+                        Contra toda la perversion que la humanidad puede producir...
+                        Les enviaremos... solo a ti...
+                        Destroza y desgarra, hasta que acabes com todos.
+                        Sé el Doom Slayer
+                    </p>
+                    <p>Empresa: Argent</p>
+                    <p>Marte, UAC</p>
+                    <a href="desarrolladorFrontend.html">
+                    <button class="interested-btn">Ver mas detalles</button>
+                    </a>
+                </div>
+                <img src="../../media/doomwork.png" alt="Company Logo" class="job-image">
+            </div>           
+        </section>
+    </main>
+</body>

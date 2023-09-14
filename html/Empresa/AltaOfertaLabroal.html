@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="../../css/altaOfertaLaboral.css">
+    <script src="https://kit.fontawesome.com/a4bec4b189.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="checkbox" id="menuToggle">
+    <header>
+        <label for="menuToggle" class="dropbtn"><i class="fas fa-bars"></i></label>
+        <a href="indexEmpresa.html" class="logo-link">
+            <h1><span class="first-part">Trabajo</span><span class="last-part">UY</span></h1>
+        </a>  
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar ofertas de trabajo...">
+            <button><i class="fas fa-search"></i> Buscar</button>
+        </div>
+    </div>
+    <div class="user-session">
+        <img src="../../media/EcoTech.png" alt="Logo Empresa" class="user-avatar">
+        <span class="user-name">EcoTech <i class="fas fa-chevron-down"></i></span>
+        <div class="user-dropdown">
+            <a href="consultaEmpresaSelf.html">Mi perfil</a>
+            <a href="CerrarSesion.html">Cerrar sesión</a>
+        </div>
+    </div>
+    </header>
+    <div class="side-menu">
+        <ul>
+            <li><a href="indexEmpresa.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="consultaUsuariosEmpresa.html"><i class="fas fa-users"></i> Consultar usuarios</a></li>
+            <li><a href="listaTipoOfertaEmpresa.html"><i class="fas fa-newspaper"></i> Consultar tipos de publicacion</a></li>
+            <li><a href="consultaPaquete_Empresa.html"><i class="fas fa-cube"></i> Consultar paquetes</a></li>
+            <li><a href="AltaOfertaLabroal.html"><i class="fas fa-square-poll-horizontal"></i> Alta Oferta</a></li>
+            <li><a href="listaOfertaEmpresa.html"><i class="fas fa-newspaper"></i> Consultar Oferta</a></li>
+        </ul>
+    </div>
+<div class="fancy-box">
+    <h1 id="tituloOferta" style="text-align: center; color: rgb(52, 54, 160);" >Alta Oferta Laboral</h1>
+    <hr>
+    <div class="job-card">
+        <div class="job-content">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre de la oferta:</label>
+                    <input type="text" id="nombre" rquired>
+                </div>
+                <div>
+                    <label for="tipo">Selecciona el tipo:</label> <br>
+                    <label for="Basico">
+                        <input type="radio" id="Basico" name="opciones[]" value="Basico"> Basico
+                    </label><br>
+                
+                    <label for="Avanzado">
+                        <input type="radio" id="Avanzado" name="opciones[]" value="Avanzado"> Avanzado
+                    </label><br>
+                
+                    <label for="Premium">
+                        <input type="radio" id="Premium" name="opciones[]" value="Premium"> Premium
+                    </label><br>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripcion:</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="horario">Horario:</label>
+                    <input type="text" id="horario" required>
+                </div>
+                <div class="form-group">
+                    <label for="renumeracion">Remuneracion</label>
+                    <input type="text" id="renumeracion" required>
+                </div>
+                <div class="form-group">
+                    <label for="departamento">Departamento:</label>
+                    <input type="text" id="departamento" required>
+                </div>
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" required>
+                </div>
+                <div class="form-group">
+                    <label for="imagen">subir imagen (opcional): <p tabindex="20px"><i class="fas fa-image fa-2x"></i></p></label>
+                        <input type="file" id="imagen" name="imagen" accept="image/*" class="subirimagen">
+                </div>
+            </form>
+        </div>
+    </div>
+    <a href="metododePago.html">
+    <button type="submit" class="interested-btn">Siguiente</button></a>
+</div>
+
+</body>

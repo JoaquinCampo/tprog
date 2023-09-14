@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="css/consultaPaquete.css">
+    <script src="https://kit.fontawesome.com/a4bec4b189.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="checkbox" id="menuToggle">
+    <header>
+        <label for="menuToggle" class="dropbtn"><i class="fas fa-bars"></i></label>
+        <a href="indexEmpresa.html" class="logo-link">
+            <h1><span class="first-part">Trabajo</span><span class="last-part">UY</span></h1>
+        </a>  
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar ofertas de trabajo...">
+            <button><i class="fas fa-search"></i> Buscar</button>
+        </div>
+        <div class="actions">
+            <a href="consultaEmpresa.html">
+                <img src="empresaImagen.PNG" width="40" height="40" alt="">
+            </a>
+            <a href="CerrarSesion.html" class="signup-btn"><i class="fas fa-check-out"></i> CerrarSesion</a>
+        </div>        
+    </header>
+    <div class="side-menu">
+        <ul>
+            <li><a href="indexEmpresa.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="consultaUsuarios.html"><i class="fas fa-users"></i> Consultar usuarios</a></li>
+            <li><a href="listaTipoOferta.html"><i class="fas fa-newspaper"></i> Consultar tipos de publicacion</a></li>
+            <li><a href="consultaPaquete_Empresa.html"><i class="fas fa-cube"></i> Consultar paquetes</a></li>
+            <li><a href="AltaOfertaLabroal.html"><i class="fas fa-square-poll-horizontal"></i> Alta Oferta</a></li>
+            <li><a href="#"><i class="fas fa-newspaper"></i> Consultar Oferta</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="job-offers">
+            <div class="job-card">
+                <div class="job-content">
+                    <h3>Tipo Oferta Laboral Basico</h3>
+                    <p>Tipo de oferta laboral basica que tiene bajo costo pero tiene menos visibilidad</p>
+                    <p>precio: 200$</p>
+                    <a href="ConsultarTipoOfertaLaboral.html">
+                    <button class="interested-btn">Ver mas detalles</button>
+                    </a>
+                </div>
+                <img src="media/tipobasico.png" alt="Company Logo" class="job-image">
+            </div>           
+        </section>
+        <section class="job-offers">
+            <div class="job-card">
+                <div class="job-content">
+                    <h3>Tipo Oferta Laboral Avanzado</h3>
+                    <p>Tipo de Oferta Laboral mas avanzada para aquellos que desean una mayor visibilidad</p>
+                    <p>precio: 300$</p>
+                    <p>Montevideo, UY</p>
+                    <a href="ConsultarTipoOfertaLaboral.html">
+                    <button class="interested-btn">Ver mas detalles</button>
+                    </a>
+                </div>
+                <img src="media/tipoAvanzado.png" alt="Company Logo" class="job-image">
+            </div>           
+        </section>
+        <section class="job-offers">
+            <div class="job-card">
+                <div class="job-content">
+                    <h3>Tipo Oferta Laboral Premium</h3>
+                    <p>Tipo de Oferta Laboral premium que tiene la mayor visibilidad de los tipos de oferta</p>
+                    <p>precio: 500$</p>
+                    <p>Montevideo, UY</p>
+                    <a href="ConsultarTipoOfertaLaboral.html">
+                    <button class="interested-btn">Ver mas detalles</button>
+                    </a>
+                </div>
+                <img src="media/tipoPremium.png" alt="Company Logo" class="job-image">
+            </div>           
+        </section>
+    </main>
+</body>
