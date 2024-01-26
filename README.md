@@ -1,8 +1,8 @@
-Project Overview
+# Project Overview
 
 This project is a comprehensive application developed as part of the Taller de Programación course at the Universidad de la República. The aim was to create trabajo.uy, a sophisticated job management system that facilitates the posting, management, and application to job offers via a web-based platform. This system was designed to provide practical experience in applying complex software development techniques and to simulate a real-world software development environment.
 
-Learning Outcomes and Technologies Used
+#Learning Outcomes and Technologies Used
 
 Throughout the development of this project, several key learning outcomes were targeted:
 
